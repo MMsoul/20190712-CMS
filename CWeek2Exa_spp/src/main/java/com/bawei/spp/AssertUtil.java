@@ -103,7 +103,7 @@ public class AssertUtil {
 	 * @param message 为错误信息
 	 */
 	public static void absInt(int exp,String message){	
-		if(exp <= 0){
+		if(exp <= 0){ 
 			throw new CRuntimeException(message);
 		}		
 	}
